@@ -44,3 +44,4 @@ function checkInput(input) {
   let res = input.match(/^[0-9]+$/);
   return res;
 }
+
