@@ -1,0 +1,54 @@
+<!-- 
+* File: index.html
+* Author: Hajdara Patrik
+* Copyright: 2023, Hajdara Patrik
+* Group: SZOFT I/II/N
+* Date: 2023-03-24
+* Github: https://github.com/06776/
+* Licenc: GNU GPL 
+-->
+
+<!DOCTYPE html>
+<html lang="hu">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Paralelepipedon</title>
+    <link rel="stylesheet" href="bootstrap.css" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Paralelepipedon térfogatszámítás</h1>
+      <h2>(SZIT feladatgyűjtemény: Feladat 0358)</h2>
+
+      <div class="paralelepipedonForm">
+        <div class="mt-3">
+          <label for="aElhossz" class="form-label">"A" él hossza (cm)</label>
+          <input type="text" id="aElhossz" class="form-control" />
+        </div>
+        <div class="mt-3">
+          <label for="bElhossz" class="form-label">"B" él hossza (cm)</label>
+          <input type="text" id="bElhossz" class="form-control" />
+        </div>
+        <div class="mt-3">
+          <label for="cElhossz" class="form-label">"C" él hossza (cm)</label>
+          <input type="text" id="cElhossz" class="form-control" />
+        </div>
+        <button id="calcButton" class="btn btn-primary mt-3">Számítás</button>
+        <div class="mt-3">
+          <label for="volume" class="form-label">Térfogat</label>
+          <input type="text" id="volume" class="form-control" />
+        </div>
+      </div>
+    </div>
+
+    <div class="about">
+      Created by Hajdara Patrik | 2023.03.24. <br />
+      SZOFT I/II/N
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>
